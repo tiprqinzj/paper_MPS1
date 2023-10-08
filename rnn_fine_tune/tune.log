@@ -1,0 +1,45 @@
+Epoch 1: avg_loss = 19.402
+  valid 88.25%, unique 68.28%, time 5m 14s
+
+Epoch 2: avg_loss = 12.335
+  valid 91.72%, unique 60.20%, time 10m 19s
+
+Epoch 3: avg_loss = 10.486
+  valid 93.27%, unique 60.19%, time 15m 58s
+
+Epoch 4: avg_loss = 9.629
+  valid 94.35%, unique 51.84%, time 20m 56s
+
+Epoch 5: avg_loss = 9.018
+  valid 94.99%, unique 49.12%, time 26m 52s
+
+Epoch 6: avg_loss = 8.727
+  valid 95.26%, unique 42.41%, time 34m 42s
+
+Epoch 7: avg_loss = 8.470
+  valid 95.71%, unique 41.17%, time 41m 47s
+
+Epoch 8: avg_loss = 8.306
+  valid 96.12%, unique 38.26%, time 49m 53s
+
+Epoch 9: avg_loss = 8.147
+  valid 96.20%, unique 36.93%, time 56m 50s
+
+Epoch 10: avg_loss = 7.967
+  valid 96.94%, unique 33.53%, time 1h 4m 8s
+
+Epoch 11: avg_loss = 7.873
+  valid 96.78%, unique 33.20%, time 1h 10m 48s
+
+Epoch 12: avg_loss = 7.777
+  valid 97.10%, unique 30.86%, time 1h 17m 7s
+
+Epoch 13: avg_loss = 7.677
+  valid 96.87%, unique 28.26%, time 1h 24m 52s
+
+Epoch 14: avg_loss = 7.612
+  valid 97.81%, unique 27.96%, time 1h 31m 17s
+
+Epoch 15: avg_loss = 7.556
+  valid 97.42%, unique 28.27%, time 1h 38m 1s
+

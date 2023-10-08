@@ -1,0 +1,7 @@
+AMIDE_MODE   penal
+GRIDFILE   glide-grid_6h3k.zip
+LIGANDFILE   /home/cadd/paper_MPS1/rnn_production/genmols_ligprep.maegz
+NREPORT   200000
+PRECISION   HTVS
+WRITE_CSV   TRUE
+WRITE_RES_INTERACTION   TRUE

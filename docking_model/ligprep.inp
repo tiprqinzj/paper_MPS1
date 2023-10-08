@@ -1,0 +1,7 @@
+INPUT_FILE_NAME   data_for_docking.sdf
+OUT_MAE   data_for_docking_ligprep.maegz
+FORCE_FIELD   16
+EPIK   yes
+DETERMINE_CHIRALITIES   no
+IGNORE_CHIRALITIES   no
+NUM_STEREOISOMERS   1

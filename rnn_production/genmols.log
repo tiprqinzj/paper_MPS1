@@ -1,0 +1,170 @@
+Pre-generation files: 
+
+  S3a_checked_flatten.csv
+
+Pre-generation compds: 1425
+
+processing: epoch 1, unique 5132, added 5132, time 0m 46s
+processing: epoch 2, unique 9723, added 4591, time 1m 33s
+processing: epoch 3, unique 14170, added 4447, time 2m 20s
+processing: epoch 4, unique 18472, added 4302, time 3m 7s
+processing: epoch 5, unique 22623, added 4151, time 3m 55s
+processing: epoch 6, unique 26694, added 4071, time 4m 40s
+processing: epoch 7, unique 30603, added 3909, time 5m 25s
+processing: epoch 8, unique 34520, added 3917, time 6m 14s
+processing: epoch 9, unique 38316, added 3796, time 6m 60s
+processing: epoch 10, unique 41987, added 3671, time 7m 43s
+processing: epoch 11, unique 45703, added 3716, time 8m 33s
+processing: epoch 12, unique 49416, added 3713, time 9m 23s
+processing: epoch 13, unique 53027, added 3611, time 10m 7s
+processing: epoch 14, unique 56651, added 3624, time 10m 51s
+processing: epoch 15, unique 60283, added 3632, time 11m 38s
+processing: epoch 16, unique 63821, added 3538, time 12m 25s
+processing: epoch 17, unique 67398, added 3577, time 13m 11s
+processing: epoch 18, unique 70925, added 3527, time 14m 4s
+processing: epoch 19, unique 74412, added 3487, time 15m 4s
+processing: epoch 20, unique 77820, added 3408, time 15m 59s
+processing: epoch 21, unique 81259, added 3439, time 16m 52s
+processing: epoch 22, unique 84621, added 3362, time 17m 46s
+processing: epoch 23, unique 87983, added 3362, time 18m 37s
+processing: epoch 24, unique 91406, added 3423, time 19m 27s
+processing: epoch 25, unique 94764, added 3358, time 20m 20s
+processing: epoch 26, unique 98059, added 3295, time 21m 13s
+processing: epoch 27, unique 101419, added 3360, time 22m 8s
+processing: epoch 28, unique 104878, added 3459, time 23m 2s
+processing: epoch 29, unique 108239, added 3361, time 23m 57s
+processing: epoch 30, unique 111568, added 3329, time 24m 54s
+processing: epoch 31, unique 114741, added 3173, time 25m 49s
+processing: epoch 32, unique 118074, added 3333, time 26m 47s
+processing: epoch 33, unique 121279, added 3205, time 27m 46s
+processing: epoch 34, unique 124496, added 3217, time 28m 43s
+processing: epoch 35, unique 127661, added 3165, time 29m 43s
+processing: epoch 36, unique 130961, added 3300, time 30m 43s
+processing: epoch 37, unique 134148, added 3187, time 31m 41s
+processing: epoch 38, unique 137412, added 3264, time 32m 45s
+processing: epoch 39, unique 140601, added 3189, time 33m 47s
+processing: epoch 40, unique 143854, added 3253, time 34m 50s
+processing: epoch 41, unique 147086, added 3232, time 35m 53s
+processing: epoch 42, unique 150235, added 3149, time 36m 58s
+processing: epoch 43, unique 153371, added 3136, time 38m 8s
+processing: epoch 44, unique 156564, added 3193, time 39m 16s
+processing: epoch 45, unique 159773, added 3209, time 40m 22s
+processing: epoch 46, unique 162836, added 3063, time 41m 30s
+processing: epoch 47, unique 166050, added 3214, time 42m 37s
+processing: epoch 48, unique 169225, added 3175, time 43m 44s
+processing: epoch 49, unique 172275, added 3050, time 44m 52s
+processing: epoch 50, unique 175400, added 3125, time 46m 0s
+processing: epoch 51, unique 178474, added 3074, time 47m 10s
+processing: epoch 52, unique 181541, added 3067, time 48m 21s
+processing: epoch 53, unique 184650, added 3109, time 49m 33s
+processing: epoch 54, unique 187763, added 3113, time 50m 45s
+processing: epoch 55, unique 190871, added 3108, time 52m 0s
+processing: epoch 56, unique 193900, added 3029, time 53m 17s
+processing: epoch 57, unique 196921, added 3021, time 54m 30s
+processing: epoch 58, unique 199874, added 2953, time 55m 43s
+processing: epoch 59, unique 202894, added 3020, time 57m 11s
+processing: epoch 60, unique 205983, added 3089, time 58m 45s
+processing: epoch 61, unique 209039, added 3056, time 1h 0m 20s
+processing: epoch 62, unique 212151, added 3112, time 1h 1m 55s
+processing: epoch 63, unique 215160, added 3009, time 1h 3m 32s
+processing: epoch 64, unique 218182, added 3022, time 1h 4m 52s
+processing: epoch 65, unique 221108, added 2926, time 1h 6m 12s
+processing: epoch 66, unique 224138, added 3030, time 1h 7m 33s
+processing: epoch 67, unique 227135, added 2997, time 1h 8m 51s
+processing: epoch 68, unique 230140, added 3005, time 1h 10m 9s
+processing: epoch 69, unique 233149, added 3009, time 1h 11m 30s
+processing: epoch 70, unique 236176, added 3027, time 1h 12m 50s
+processing: epoch 71, unique 239170, added 2994, time 1h 14m 13s
+processing: epoch 72, unique 242179, added 3009, time 1h 15m 38s
+processing: epoch 73, unique 245157, added 2978, time 1h 17m 6s
+processing: epoch 74, unique 248188, added 3031, time 1h 18m 29s
+processing: epoch 75, unique 251141, added 2953, time 1h 19m 54s
+processing: epoch 76, unique 254090, added 2949, time 1h 21m 19s
+processing: epoch 77, unique 257042, added 2952, time 1h 22m 44s
+processing: epoch 78, unique 260006, added 2964, time 1h 24m 9s
+processing: epoch 79, unique 262935, added 2929, time 1h 25m 34s
+processing: epoch 80, unique 265843, added 2908, time 1h 27m 5s
+processing: epoch 81, unique 268813, added 2970, time 1h 28m 31s
+processing: epoch 82, unique 271802, added 2989, time 1h 29m 59s
+processing: epoch 83, unique 274728, added 2926, time 1h 31m 29s
+processing: epoch 84, unique 277712, added 2984, time 1h 32m 59s
+processing: epoch 85, unique 280643, added 2931, time 1h 34m 30s
+processing: epoch 86, unique 283570, added 2927, time 1h 36m 1s
+processing: epoch 87, unique 286498, added 2928, time 1h 37m 31s
+processing: epoch 88, unique 289459, added 2961, time 1h 39m 3s
+processing: epoch 89, unique 292322, added 2863, time 1h 40m 34s
+processing: epoch 90, unique 295274, added 2952, time 1h 42m 6s
+processing: epoch 91, unique 298149, added 2875, time 1h 43m 37s
+processing: epoch 92, unique 301023, added 2874, time 1h 45m 8s
+processing: epoch 93, unique 303824, added 2801, time 1h 46m 44s
+processing: epoch 94, unique 306660, added 2836, time 1h 48m 22s
+processing: epoch 95, unique 309556, added 2896, time 1h 50m 0s
+processing: epoch 96, unique 312525, added 2969, time 1h 51m 37s
+processing: epoch 97, unique 315468, added 2943, time 1h 53m 14s
+processing: epoch 98, unique 318345, added 2877, time 1h 54m 53s
+processing: epoch 99, unique 321262, added 2917, time 1h 56m 34s
+processing: epoch 100, unique 324135, added 2873, time 1h 58m 12s
+processing: epoch 101, unique 327023, added 2888, time 1h 59m 49s
+processing: epoch 102, unique 329871, added 2848, time 2h 1m 31s
+processing: epoch 103, unique 332671, added 2800, time 2h 3m 10s
+processing: epoch 104, unique 335588, added 2917, time 2h 4m 55s
+processing: epoch 105, unique 338447, added 2859, time 2h 6m 42s
+processing: epoch 106, unique 341293, added 2846, time 2h 8m 25s
+processing: epoch 107, unique 344111, added 2818, time 2h 10m 11s
+processing: epoch 108, unique 346977, added 2866, time 2h 11m 52s
+processing: epoch 109, unique 349799, added 2822, time 2h 13m 37s
+processing: epoch 110, unique 352645, added 2846, time 2h 15m 20s
+processing: epoch 111, unique 355493, added 2848, time 2h 17m 7s
+processing: epoch 112, unique 358410, added 2917, time 2h 18m 54s
+processing: epoch 113, unique 361176, added 2766, time 2h 20m 47s
+processing: epoch 114, unique 363928, added 2752, time 2h 22m 35s
+processing: epoch 115, unique 366829, added 2901, time 2h 24m 20s
+processing: epoch 116, unique 369618, added 2789, time 2h 26m 14s
+processing: epoch 117, unique 372339, added 2721, time 2h 28m 6s
+processing: epoch 118, unique 375141, added 2802, time 2h 29m 57s
+processing: epoch 119, unique 377935, added 2794, time 2h 31m 45s
+processing: epoch 120, unique 380719, added 2784, time 2h 33m 36s
+processing: epoch 121, unique 383618, added 2899, time 2h 35m 23s
+processing: epoch 122, unique 386528, added 2910, time 2h 37m 11s
+processing: epoch 123, unique 389368, added 2840, time 2h 39m 5s
+processing: epoch 124, unique 392170, added 2802, time 2h 40m 57s
+processing: epoch 125, unique 394935, added 2765, time 2h 42m 50s
+processing: epoch 126, unique 397635, added 2700, time 2h 44m 43s
+processing: epoch 127, unique 400469, added 2834, time 2h 46m 40s
+processing: epoch 128, unique 403304, added 2835, time 2h 48m 37s
+processing: epoch 129, unique 406125, added 2821, time 2h 50m 30s
+processing: epoch 130, unique 408927, added 2802, time 2h 52m 30s
+processing: epoch 131, unique 411701, added 2774, time 2h 54m 29s
+processing: epoch 132, unique 414511, added 2810, time 2h 56m 26s
+processing: epoch 133, unique 417358, added 2847, time 2h 58m 24s
+processing: epoch 134, unique 420157, added 2799, time 3h 0m 26s
+processing: epoch 135, unique 422903, added 2746, time 3h 2m 26s
+processing: epoch 136, unique 425666, added 2763, time 3h 4m 25s
+processing: epoch 137, unique 428430, added 2764, time 3h 6m 34s
+processing: epoch 138, unique 431136, added 2706, time 3h 8m 34s
+processing: epoch 139, unique 433850, added 2714, time 3h 10m 43s
+processing: epoch 140, unique 436696, added 2846, time 3h 12m 51s
+processing: epoch 141, unique 439568, added 2872, time 3h 14m 58s
+processing: epoch 142, unique 442295, added 2727, time 3h 17m 2s
+processing: epoch 143, unique 445067, added 2772, time 3h 19m 6s
+processing: epoch 144, unique 447806, added 2739, time 3h 21m 12s
+processing: epoch 145, unique 450546, added 2740, time 3h 23m 15s
+processing: epoch 146, unique 453304, added 2758, time 3h 25m 25s
+processing: epoch 147, unique 456004, added 2700, time 3h 27m 28s
+processing: epoch 148, unique 458727, added 2723, time 3h 29m 37s
+processing: epoch 149, unique 461497, added 2770, time 3h 31m 44s
+processing: epoch 150, unique 464294, added 2797, time 3h 33m 48s
+processing: epoch 151, unique 467075, added 2781, time 3h 35m 56s
+processing: epoch 152, unique 469864, added 2789, time 3h 38m 5s
+processing: epoch 153, unique 472538, added 2674, time 3h 40m 11s
+processing: epoch 154, unique 475245, added 2707, time 3h 42m 17s
+processing: epoch 155, unique 477973, added 2728, time 3h 44m 28s
+processing: epoch 156, unique 480700, added 2727, time 3h 46m 37s
+processing: epoch 157, unique 483432, added 2732, time 3h 48m 45s
+processing: epoch 158, unique 486192, added 2760, time 3h 50m 52s
+processing: epoch 159, unique 488963, added 2771, time 3h 53m 7s
+processing: epoch 160, unique 491626, added 2663, time 3h 55m 19s
+processing: epoch 161, unique 494383, added 2757, time 3h 57m 28s
+processing: epoch 162, unique 497116, added 2733, time 3h 59m 45s
+processing: epoch 163, unique 499856, added 2740, time 4h 1m 53s
+processing: epoch 164, unique 502562, added 2706, time 4h 4m 9s

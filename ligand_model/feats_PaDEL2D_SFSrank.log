@@ -1,0 +1,19 @@
+Start SFS calculation
+descriptor number: init 211
+
+forward 2, time 2m 43s, des = LipoaffinityIndex, nTG12HeteroRing
+forward 4, time 8m 46s, des = LipoaffinityIndex, minssCH2, nTG12HeteroRing, nCl
+forward 6, time 19m 51s, des = LipoaffinityIndex, minssCH2, nTG12HeteroRing, nCl, minHAvin, C2SP1
+forward 8, time 38m 38s, des = LipoaffinityIndex, minssCH2, nTG12HeteroRing, nCl, minHAvin, MDEC-44, C2SP1, nF8Ring
+forward 10, time 1h 6m 43s, des = LipoaffinityIndex, minssCH2, nTG12HeteroRing, nCl, minHAvin, MDEC-44, C2SP1, nF8Ring, minddC, maxHdNH
+forward 12, time 1h 45m 27s, des = LipoaffinityIndex, minssCH2, nTG12HeteroRing, nCl, minHAvin, MDEC-44, C2SP1, nF8Ring, minddC, maxHdNH, MDEN-11, SssS
+forward 14, time 2h 32m 50s, des = LipoaffinityIndex, minssCH2, nTG12HeteroRing, nCl, minHBint6, minHAvin, MDEC-44, C2SP1, ndsN, nF8Ring, minddC, maxHdNH, MDEN-11, SssS
+forward 16, time 3h 29m 14s, des = LipoaffinityIndex, minssCH2, minHsNH2, nTG12HeteroRing, nCl, minHBint6, ETA_EtaP_B_RC, minHAvin, MDEC-44, C2SP1, ndsN, nF8Ring, minddC, maxHdNH, MDEN-11, SssS
+forward 18, time 4h 36m 6s, des = LipoaffinityIndex, minssCH2, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, ETA_EtaP_B_RC, minHAvin, MDEC-44, C2SP1, ndsN, nF8Ring, minddC, maxHdNH, MDEN-11, SssS
+forward 20, time 5h 50m 48s, des = LipoaffinityIndex, minssCH2, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, ETA_EtaP_B_RC, minHAvin, MDEC-44, C2SP1, SsOm, ndsN, nF8Ring, minddC, maxHdNH, mindCH2, MDEN-11, SssS
+forward 22, time 7h 13m 21s, des = LipoaffinityIndex, minssCH2, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, ETA_EtaP_B_RC, nFRing, minHAvin, nF7Ring, MDEC-44, C2SP1, SsOm, ndsN, nF8Ring, minddC, maxHdNH, mindCH2, MDEN-11, SssS
+forward 24, time 8h 45m 3s, des = LipoaffinityIndex, minssCH2, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, nHCHnX, maxHdsCH, ETA_EtaP_B_RC, nFRing, minHAvin, nF7Ring, MDEC-44, C2SP1, SsOm, ndsN, nF8Ring, minddC, maxHdNH, mindCH2, MDEN-11, SssS
+forward 26, time 9h 54m 50s, des = LipoaffinityIndex, SC-3, ETA_AlphaP, minssCH2, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, nHCHnX, maxHdsCH, ETA_EtaP_B_RC, nFRing, minHAvin, nF7Ring, MDEC-44, C2SP1, SsOm, ndsN, nF8Ring, minddC, maxHdNH, mindCH2, MDEN-11, SssS
+forward 28, time 11h 5m 4s, des = LipoaffinityIndex, SC-3, ETA_AlphaP, minssCH2, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, nHCHnX, maxHdsCH, ETA_EtaP_B_RC, nFRing, minHAvin, nF7Ring, MDEC-44, minaaS, C2SP1, SsOm, ndsN, nF8Ring, minddC, nT7Ring, maxHdNH, mindCH2, MDEN-11, SssS
+forward 30, time 12h 20m 26s, des = LipoaffinityIndex, SC-3, ETA_AlphaP, minssCH2, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, nHCHnX, maxHdsCH, ETA_EtaP_B_RC, nFRing, minHAvin, nF7Ring, MDEC-44, maxwHBa, minaaS, C2SP1, SsOm, ndsN, nF8Ring, nF7HeteroRing, minddC, nT7Ring, maxHdNH, mindCH2, MDEN-11, SssS
+forward 32, time 13h 41m 46s, des = LipoaffinityIndex, SC-3, ETA_AlphaP, minssCH2, maxtsC, minHsNH2, nTG12HeteroRing, nCl, SsOH, minHBint6, n7Ring, nHCHnX, maxHdsCH, ETA_EtaP_B_RC, nFRing, minHAvin, nF7Ring, MDEC-44, MDEN-13, maxwHBa, minaaS, C2SP1, SsOm, ndsN, nF8Ring, nF7HeteroRing, minddC, nT7Ring, maxHdNH, mindCH2, MDEN-11, SssS

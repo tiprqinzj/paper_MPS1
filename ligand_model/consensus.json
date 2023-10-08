@@ -1,0 +1,23 @@
+{
+    "model_folders": [
+        "DNN_FC0001_ModelB1-ECFP4-all_batchsize-16_optim-adam_lr-0.0025",
+        "DNN_FC0001_ModelH2-PubChemFP-top256_batchsize-16_optim-sgd_lr-0.0025",
+        "DNN_FC0002_ModelP16-PaDEL2D-PCC_SFSforward32_batchsize-16_optim-adam_lr-0.005",
+        "DNN_FC0002_ModelR02-RDKit2D-PCC_SFSforward4_batchsize-16_optim-adam_lr-0.005"
+    ],
+    "des_mode": [
+        "ECFP4",
+        "PubChemFP",
+        "PaDEL2D",
+        "RDKit2D"
+    ],
+    "model_class": [
+        "DNN_FC0001",
+        "DNN_FC0001",
+        "DNN_FC0002",
+        "DNN_FC0002"
+    ],
+    "root_folder": "/home/cadd/paper_MPS1/ligand_model",
+    "tr_avgY": 0.614,
+    "validnum": 5
+}

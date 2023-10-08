@@ -1,0 +1,5 @@
+Check SMILES for decoys.csv:
+
+Decoys_1811, Cc1c2c3c4c(c1OC(=O)C5CCCCC5)C(=O)/C(=N/C(=O)/C(=C\C=C\[C@@H]([C@@H]([C@H]([C@@H]([C@@H]([C@@H]([C@@H]([C@H](/C=C/O[C@](C3=O)(O2)C)OC)C)OC(=O)C)C)O)C)O)C)/C)/C=C4[O-], Failed because unsuitable MW, only MW in range [200, 800] will be remained
+Decoys_1836, CC(C)C1=C2[C@H]3CC[C@@H]4[C@]5(CC[C@@H](C([C@H]5CC[C@]4([C@@]3(CC[C@]2(CC1=O)[C@H](CN(CC[NH+](C)C)Cc6ccc(cc6)Cl)O)C)C)(C)C)OC(=O)CC(C)(C)C(=O)[O-])C, Failed because unsuitable MW, only MW in range [200, 800] will be remained
+Decoys_1837, CCOC(=O)C1=C(NC(=C([C@@H]1c2ccccc2Cl)C#N)SCSC3=C([C@@H](C(=C(N3)c4ccccc4)C(=O)OCC)c5ccccc5Cl)C#N)c6ccccc6, Failed because unsuitable MW, only MW in range [200, 800] will be remained

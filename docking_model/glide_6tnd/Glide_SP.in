@@ -1,0 +1,6 @@
+AMIDE_MODE   penal
+GRIDFILE   ../glide-grid_6tnd.zip
+LIGANDFILE   ../data_for_docking_ligprep.maegz
+PRECISION   SP
+WRITE_RES_INTERACTION   TRUE
+WRITE_CSV   TRUE

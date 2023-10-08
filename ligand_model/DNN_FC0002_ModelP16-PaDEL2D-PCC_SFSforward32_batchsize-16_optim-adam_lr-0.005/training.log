@@ -1,0 +1,334 @@
+Hyper-parameters:
+
+  batch_size   16
+  optimizer  adam
+  lr           0.005
+  lr_decrease_epoch 20
+  lr_decrease_by    0.01
+
+
+processing train1:
+
+Epoch 1, train loss = 0.645, valid loss = 0.567, time 0m 0s
+Epoch 2, train loss = 0.562, valid loss = 0.499, time 0m 0s
+Epoch 3, train loss = 0.526, valid loss = 0.492, time 0m 0s
+Epoch 4, train loss = 0.503, valid loss = 0.471, time 0m 0s
+Epoch 5, train loss = 0.481, valid loss = 0.466, time 0m 0s
+Epoch 6, train loss = 0.475, valid loss = 0.475, time 0m 0s
+Epoch 7, train loss = 0.449, valid loss = 0.492, time 0m 1s
+Epoch 8, train loss = 0.477, valid loss = 0.485, time 0m 1s
+Epoch 9, train loss = 0.479, valid loss = 0.483, time 0m 1s
+Epoch 10, train loss = 0.448, valid loss = 0.482, time 0m 1s
+Epoch 11, train loss = 0.477, valid loss = 0.487, time 0m 1s
+Epoch 12, train loss = 0.457, valid loss = 0.493, time 0m 1s
+Epoch 13, train loss = 0.447, valid loss = 0.499, time 0m 1s
+Epoch 14, train loss = 0.450, valid loss = 0.492, time 0m 1s
+Epoch 15, train loss = 0.445, valid loss = 0.494, time 0m 1s
+Epoch 16, train loss = 0.452, valid loss = 0.501, time 0m 1s
+Epoch 17, train loss = 0.455, valid loss = 0.501, time 0m 1s
+Epoch 18, train loss = 0.429, valid loss = 0.515, time 0m 1s
+Epoch 19, train loss = 0.430, valid loss = 0.519, time 0m 1s
+Epoch 20, train loss = 0.438, valid loss = 0.527, time 0m 1s
+Epoch 21, train loss = 0.415, valid loss = 0.544, time 0m 1s
+Epoch 22, train loss = 0.428, valid loss = 0.538, time 0m 1s
+Epoch 23, train loss = 0.427, valid loss = 0.533, time 0m 1s
+Epoch 24, train loss = 0.433, valid loss = 0.537, time 0m 2s
+Epoch 25, train loss = 0.422, valid loss = 0.538, time 0m 2s
+Epoch 26, train loss = 0.438, valid loss = 0.535, time 0m 2s
+Epoch 27, train loss = 0.411, valid loss = 0.551, time 0m 2s
+Epoch 28, train loss = 0.422, valid loss = 0.527, time 0m 2s
+Epoch 29, train loss = 0.415, valid loss = 0.535, time 0m 2s
+Epoch 30, train loss = 0.407, valid loss = 0.544, time 0m 2s
+Epoch 31, train loss = 0.422, valid loss = 0.527, time 0m 2s
+Epoch 32, train loss = 0.437, valid loss = 0.508, time 0m 2s
+Epoch 33, train loss = 0.405, valid loss = 0.529, time 0m 2s
+Epoch 34, train loss = 0.420, valid loss = 0.514, time 0m 2s
+Epoch 35, train loss = 0.416, valid loss = 0.531, time 0m 2s
+Epoch 36, train loss = 0.404, valid loss = 0.566, time 0m 2s
+Epoch 37, train loss = 0.416, valid loss = 0.525, time 0m 2s
+Epoch 38, train loss = 0.402, valid loss = 0.550, time 0m 2s
+Epoch 39, train loss = 0.418, valid loss = 0.524, time 0m 2s
+Epoch 40, train loss = 0.416, valid loss = 0.540, time 0m 2s
+Epoch 41, train loss = 0.408, valid loss = 0.560, time 0m 2s
+Epoch 42, train loss = 0.409, valid loss = 0.563, time 0m 2s
+Epoch 43, train loss = 0.396, valid loss = 0.564, time 0m 2s
+Epoch 44, train loss = 0.421, valid loss = 0.552, time 0m 3s
+Epoch 45, train loss = 0.409, valid loss = 0.552, time 0m 3s
+Epoch 46, train loss = 0.407, valid loss = 0.538, time 0m 3s
+Epoch 47, train loss = 0.409, valid loss = 0.548, time 0m 3s
+Epoch 48, train loss = 0.405, valid loss = 0.552, time 0m 3s
+Epoch 49, train loss = 0.399, valid loss = 0.550, time 0m 3s
+Epoch 50, train loss = 0.383, valid loss = 0.553, time 0m 3s
+Epoch 51, train loss = 0.414, valid loss = 0.537, time 0m 3s
+Epoch 52, train loss = 0.392, valid loss = 0.562, time 0m 3s
+Epoch 53, train loss = 0.402, valid loss = 0.534, time 0m 3s
+Epoch 54, train loss = 0.394, valid loss = 0.562, time 0m 3s
+Epoch 55, train loss = 0.396, valid loss = 0.557, time 0m 3s
+Epoch 56, train loss = 0.393, valid loss = 0.549, time 0m 3s
+Epoch 57, train loss = 0.410, valid loss = 0.551, time 0m 3s
+Epoch 58, train loss = 0.389, valid loss = 0.580, time 0m 3s
+Epoch 59, train loss = 0.392, valid loss = 0.577, time 0m 3s
+Epoch 60, train loss = 0.390, valid loss = 0.561, time 0m 3s
+
+Select best Epoch:
+Epoch 20, train loss = 0.438, valid loss = 0.527, Spearmanr = 0.52
+Epoch 40, train loss = 0.416, valid loss = 0.540, Spearmanr = -0.20
+Epoch 60, train loss = 0.390, valid loss = 0.561, Spearmanr = 0.12
+Final Epoch: 40
+
+valid for train1:
+  tp=108, tn=49, fp=28, fn=13
+  se=0.8926, sp=0.6364, acc=0.7929, mcc=0.556, auc=0.869
+
+
+processing train2:
+
+Epoch 1, train loss = 0.649, valid loss = 0.551, time 0m 3s
+Epoch 2, train loss = 0.559, valid loss = 0.506, time 0m 3s
+Epoch 3, train loss = 0.538, valid loss = 0.493, time 0m 3s
+Epoch 4, train loss = 0.524, valid loss = 0.483, time 0m 4s
+Epoch 5, train loss = 0.494, valid loss = 0.472, time 0m 4s
+Epoch 6, train loss = 0.489, valid loss = 0.480, time 0m 4s
+Epoch 7, train loss = 0.486, valid loss = 0.487, time 0m 4s
+Epoch 8, train loss = 0.462, valid loss = 0.471, time 0m 4s
+Epoch 9, train loss = 0.501, valid loss = 0.483, time 0m 4s
+Epoch 10, train loss = 0.449, valid loss = 0.476, time 0m 4s
+Epoch 11, train loss = 0.451, valid loss = 0.487, time 0m 4s
+Epoch 12, train loss = 0.446, valid loss = 0.474, time 0m 4s
+Epoch 13, train loss = 0.458, valid loss = 0.475, time 0m 4s
+Epoch 14, train loss = 0.446, valid loss = 0.476, time 0m 4s
+Epoch 15, train loss = 0.425, valid loss = 0.476, time 0m 4s
+Epoch 16, train loss = 0.453, valid loss = 0.467, time 0m 4s
+Epoch 17, train loss = 0.446, valid loss = 0.475, time 0m 4s
+Epoch 18, train loss = 0.444, valid loss = 0.473, time 0m 4s
+Epoch 19, train loss = 0.436, valid loss = 0.472, time 0m 4s
+Epoch 20, train loss = 0.442, valid loss = 0.474, time 0m 4s
+Epoch 21, train loss = 0.422, valid loss = 0.475, time 0m 4s
+Epoch 22, train loss = 0.422, valid loss = 0.475, time 0m 4s
+Epoch 23, train loss = 0.427, valid loss = 0.472, time 0m 4s
+Epoch 24, train loss = 0.426, valid loss = 0.476, time 0m 4s
+Epoch 25, train loss = 0.430, valid loss = 0.473, time 0m 5s
+Epoch 26, train loss = 0.414, valid loss = 0.477, time 0m 5s
+Epoch 27, train loss = 0.417, valid loss = 0.493, time 0m 5s
+Epoch 28, train loss = 0.412, valid loss = 0.502, time 0m 5s
+Epoch 29, train loss = 0.399, valid loss = 0.508, time 0m 5s
+Epoch 30, train loss = 0.393, valid loss = 0.510, time 0m 5s
+Epoch 31, train loss = 0.426, valid loss = 0.482, time 0m 5s
+Epoch 32, train loss = 0.418, valid loss = 0.502, time 0m 5s
+Epoch 33, train loss = 0.400, valid loss = 0.502, time 0m 5s
+Epoch 34, train loss = 0.413, valid loss = 0.489, time 0m 5s
+Epoch 35, train loss = 0.413, valid loss = 0.494, time 0m 5s
+Epoch 36, train loss = 0.398, valid loss = 0.491, time 0m 5s
+Epoch 37, train loss = 0.427, valid loss = 0.473, time 0m 5s
+Epoch 38, train loss = 0.402, valid loss = 0.490, time 0m 5s
+Epoch 39, train loss = 0.396, valid loss = 0.492, time 0m 5s
+Epoch 40, train loss = 0.401, valid loss = 0.491, time 0m 5s
+
+Select best Epoch:
+Epoch 20, train loss = 0.442, valid loss = 0.474, Spearmanr = -0.67
+Epoch 40, train loss = 0.401, valid loss = 0.491, Spearmanr = 0.37
+Final Epoch: 20
+
+valid for train2:
+  tp=97, tn=55, fp=21, fn=24
+  se=0.8017, sp=0.7237, acc=0.7716, mcc=0.522, auc=0.816
+
+
+processing train3:
+
+Epoch 1, train loss = 0.644, valid loss = 0.568, time 0m 5s
+Epoch 2, train loss = 0.544, valid loss = 0.538, time 0m 5s
+Epoch 3, train loss = 0.503, valid loss = 0.545, time 0m 5s
+Epoch 4, train loss = 0.502, valid loss = 0.525, time 0m 5s
+Epoch 5, train loss = 0.490, valid loss = 0.534, time 0m 6s
+Epoch 6, train loss = 0.478, valid loss = 0.554, time 0m 6s
+Epoch 7, train loss = 0.465, valid loss = 0.557, time 0m 6s
+Epoch 8, train loss = 0.473, valid loss = 0.540, time 0m 6s
+Epoch 9, train loss = 0.439, valid loss = 0.537, time 0m 6s
+Epoch 10, train loss = 0.457, valid loss = 0.526, time 0m 6s
+Epoch 11, train loss = 0.443, valid loss = 0.535, time 0m 6s
+Epoch 12, train loss = 0.433, valid loss = 0.561, time 0m 6s
+Epoch 13, train loss = 0.427, valid loss = 0.570, time 0m 6s
+Epoch 14, train loss = 0.445, valid loss = 0.550, time 0m 6s
+Epoch 15, train loss = 0.436, valid loss = 0.587, time 0m 6s
+Epoch 16, train loss = 0.424, valid loss = 0.551, time 0m 6s
+Epoch 17, train loss = 0.429, valid loss = 0.575, time 0m 6s
+Epoch 18, train loss = 0.426, valid loss = 0.571, time 0m 6s
+Epoch 19, train loss = 0.418, valid loss = 0.579, time 0m 6s
+Epoch 20, train loss = 0.430, valid loss = 0.575, time 0m 6s
+Epoch 21, train loss = 0.428, valid loss = 0.597, time 0m 6s
+Epoch 22, train loss = 0.408, valid loss = 0.600, time 0m 6s
+Epoch 23, train loss = 0.419, valid loss = 0.611, time 0m 6s
+Epoch 24, train loss = 0.409, valid loss = 0.628, time 0m 6s
+Epoch 25, train loss = 0.411, valid loss = 0.644, time 0m 6s
+Epoch 26, train loss = 0.389, valid loss = 0.664, time 0m 7s
+Epoch 27, train loss = 0.398, valid loss = 0.629, time 0m 7s
+Epoch 28, train loss = 0.405, valid loss = 0.637, time 0m 7s
+Epoch 29, train loss = 0.410, valid loss = 0.644, time 0m 7s
+Epoch 30, train loss = 0.406, valid loss = 0.650, time 0m 7s
+Epoch 31, train loss = 0.398, valid loss = 0.679, time 0m 7s
+Epoch 32, train loss = 0.414, valid loss = 0.654, time 0m 7s
+Epoch 33, train loss = 0.404, valid loss = 0.656, time 0m 7s
+Epoch 34, train loss = 0.406, valid loss = 0.687, time 0m 7s
+Epoch 35, train loss = 0.403, valid loss = 0.695, time 0m 7s
+Epoch 36, train loss = 0.413, valid loss = 0.661, time 0m 7s
+Epoch 37, train loss = 0.395, valid loss = 0.708, time 0m 7s
+Epoch 38, train loss = 0.408, valid loss = 0.723, time 0m 7s
+Epoch 39, train loss = 0.394, valid loss = 0.745, time 0m 7s
+Epoch 40, train loss = 0.395, valid loss = 0.716, time 0m 7s
+
+Select best Epoch:
+Epoch 20, train loss = 0.430, valid loss = 0.575, Spearmanr = 0.62
+Epoch 40, train loss = 0.395, valid loss = 0.716, Spearmanr = 0.92
+Final Epoch: 20
+
+valid for train3:
+  tp=104, tn=51, fp=25, fn=17
+  se=0.8595, sp=0.6711, acc=0.7868, mcc=0.543, auc=0.820
+
+
+processing train4:
+
+Epoch 1, train loss = 0.630, valid loss = 0.573, time 0m 7s
+Epoch 2, train loss = 0.533, valid loss = 0.562, time 0m 7s
+Epoch 3, train loss = 0.525, valid loss = 0.529, time 0m 7s
+Epoch 4, train loss = 0.503, valid loss = 0.508, time 0m 7s
+Epoch 5, train loss = 0.481, valid loss = 0.491, time 0m 8s
+Epoch 6, train loss = 0.490, valid loss = 0.483, time 0m 8s
+Epoch 7, train loss = 0.493, valid loss = 0.493, time 0m 8s
+Epoch 8, train loss = 0.483, valid loss = 0.495, time 0m 8s
+Epoch 9, train loss = 0.453, valid loss = 0.498, time 0m 8s
+Epoch 10, train loss = 0.461, valid loss = 0.503, time 0m 8s
+Epoch 11, train loss = 0.453, valid loss = 0.521, time 0m 8s
+Epoch 12, train loss = 0.440, valid loss = 0.522, time 0m 8s
+Epoch 13, train loss = 0.473, valid loss = 0.511, time 0m 8s
+Epoch 14, train loss = 0.429, valid loss = 0.515, time 0m 8s
+Epoch 15, train loss = 0.445, valid loss = 0.518, time 0m 8s
+Epoch 16, train loss = 0.437, valid loss = 0.545, time 0m 8s
+Epoch 17, train loss = 0.435, valid loss = 0.573, time 0m 8s
+Epoch 18, train loss = 0.437, valid loss = 0.568, time 0m 8s
+Epoch 19, train loss = 0.435, valid loss = 0.572, time 0m 8s
+Epoch 20, train loss = 0.425, valid loss = 0.617, time 0m 8s
+Epoch 21, train loss = 0.424, valid loss = 0.646, time 0m 8s
+Epoch 22, train loss = 0.431, valid loss = 0.638, time 0m 8s
+Epoch 23, train loss = 0.401, valid loss = 0.699, time 0m 8s
+Epoch 24, train loss = 0.420, valid loss = 0.697, time 0m 8s
+Epoch 25, train loss = 0.423, valid loss = 0.634, time 0m 8s
+Epoch 26, train loss = 0.419, valid loss = 0.652, time 0m 9s
+Epoch 27, train loss = 0.414, valid loss = 0.690, time 0m 9s
+Epoch 28, train loss = 0.413, valid loss = 0.681, time 0m 9s
+Epoch 29, train loss = 0.421, valid loss = 0.708, time 0m 9s
+Epoch 30, train loss = 0.415, valid loss = 0.714, time 0m 9s
+Epoch 31, train loss = 0.405, valid loss = 0.711, time 0m 9s
+Epoch 32, train loss = 0.390, valid loss = 0.744, time 0m 9s
+Epoch 33, train loss = 0.410, valid loss = 0.751, time 0m 9s
+Epoch 34, train loss = 0.399, valid loss = 0.809, time 0m 9s
+Epoch 35, train loss = 0.418, valid loss = 0.835, time 0m 9s
+Epoch 36, train loss = 0.403, valid loss = 0.789, time 0m 9s
+Epoch 37, train loss = 0.412, valid loss = 0.804, time 0m 9s
+Epoch 38, train loss = 0.376, valid loss = 0.850, time 0m 9s
+Epoch 39, train loss = 0.408, valid loss = 0.834, time 0m 9s
+Epoch 40, train loss = 0.392, valid loss = 0.922, time 0m 9s
+
+Select best Epoch:
+Epoch 20, train loss = 0.425, valid loss = 0.617, Spearmanr = 0.41
+Epoch 40, train loss = 0.392, valid loss = 0.922, Spearmanr = 0.93
+Final Epoch: 20
+
+valid for train4:
+  tp=100, tn=54, fp=22, fn=21
+  se=0.8264, sp=0.7105, acc=0.7817, mcc=0.538, auc=0.831
+
+
+processing train5:
+
+Epoch 1, train loss = 0.676, valid loss = 0.589, time 0m 9s
+Epoch 2, train loss = 0.580, valid loss = 0.518, time 0m 9s
+Epoch 3, train loss = 0.535, valid loss = 0.492, time 0m 9s
+Epoch 4, train loss = 0.505, valid loss = 0.476, time 0m 9s
+Epoch 5, train loss = 0.502, valid loss = 0.475, time 0m 9s
+Epoch 6, train loss = 0.500, valid loss = 0.458, time 0m 10s
+Epoch 7, train loss = 0.489, valid loss = 0.459, time 0m 10s
+Epoch 8, train loss = 0.479, valid loss = 0.477, time 0m 10s
+Epoch 9, train loss = 0.445, valid loss = 0.445, time 0m 10s
+Epoch 10, train loss = 0.450, valid loss = 0.464, time 0m 10s
+Epoch 11, train loss = 0.435, valid loss = 0.455, time 0m 10s
+Epoch 12, train loss = 0.434, valid loss = 0.451, time 0m 10s
+Epoch 13, train loss = 0.482, valid loss = 0.444, time 0m 10s
+Epoch 14, train loss = 0.449, valid loss = 0.437, time 0m 10s
+Epoch 15, train loss = 0.439, valid loss = 0.448, time 0m 10s
+Epoch 16, train loss = 0.447, valid loss = 0.457, time 0m 10s
+Epoch 17, train loss = 0.447, valid loss = 0.457, time 0m 10s
+Epoch 18, train loss = 0.443, valid loss = 0.448, time 0m 10s
+Epoch 19, train loss = 0.435, valid loss = 0.471, time 0m 10s
+Epoch 20, train loss = 0.432, valid loss = 0.470, time 0m 10s
+Epoch 21, train loss = 0.429, valid loss = 0.468, time 0m 10s
+Epoch 22, train loss = 0.418, valid loss = 0.475, time 0m 10s
+Epoch 23, train loss = 0.419, valid loss = 0.473, time 0m 10s
+Epoch 24, train loss = 0.435, valid loss = 0.486, time 0m 10s
+Epoch 25, train loss = 0.417, valid loss = 0.459, time 0m 10s
+Epoch 26, train loss = 0.427, valid loss = 0.439, time 0m 11s
+Epoch 27, train loss = 0.412, valid loss = 0.434, time 0m 11s
+Epoch 28, train loss = 0.418, valid loss = 0.443, time 0m 11s
+Epoch 29, train loss = 0.403, valid loss = 0.432, time 0m 11s
+Epoch 30, train loss = 0.422, valid loss = 0.444, time 0m 11s
+Epoch 31, train loss = 0.408, valid loss = 0.441, time 0m 11s
+Epoch 32, train loss = 0.438, valid loss = 0.459, time 0m 11s
+Epoch 33, train loss = 0.408, valid loss = 0.465, time 0m 11s
+Epoch 34, train loss = 0.404, valid loss = 0.459, time 0m 11s
+Epoch 35, train loss = 0.418, valid loss = 0.472, time 0m 11s
+Epoch 36, train loss = 0.389, valid loss = 0.455, time 0m 11s
+Epoch 37, train loss = 0.404, valid loss = 0.458, time 0m 11s
+Epoch 38, train loss = 0.396, valid loss = 0.453, time 0m 11s
+Epoch 39, train loss = 0.421, valid loss = 0.450, time 0m 11s
+Epoch 40, train loss = 0.393, valid loss = 0.462, time 0m 11s
+Epoch 41, train loss = 0.388, valid loss = 0.449, time 0m 11s
+Epoch 42, train loss = 0.401, valid loss = 0.447, time 0m 11s
+Epoch 43, train loss = 0.389, valid loss = 0.469, time 0m 11s
+Epoch 44, train loss = 0.401, valid loss = 0.484, time 0m 11s
+Epoch 45, train loss = 0.397, valid loss = 0.491, time 0m 11s
+Epoch 46, train loss = 0.408, valid loss = 0.473, time 0m 12s
+Epoch 47, train loss = 0.382, valid loss = 0.476, time 0m 12s
+Epoch 48, train loss = 0.385, valid loss = 0.493, time 0m 12s
+Epoch 49, train loss = 0.406, valid loss = 0.454, time 0m 12s
+Epoch 50, train loss = 0.407, valid loss = 0.459, time 0m 12s
+Epoch 51, train loss = 0.412, valid loss = 0.429, time 0m 12s
+Epoch 52, train loss = 0.385, valid loss = 0.444, time 0m 12s
+Epoch 53, train loss = 0.408, valid loss = 0.463, time 0m 12s
+Epoch 54, train loss = 0.387, valid loss = 0.474, time 0m 12s
+Epoch 55, train loss = 0.386, valid loss = 0.487, time 0m 12s
+Epoch 56, train loss = 0.407, valid loss = 0.465, time 0m 12s
+Epoch 57, train loss = 0.389, valid loss = 0.456, time 0m 12s
+Epoch 58, train loss = 0.374, valid loss = 0.480, time 0m 12s
+Epoch 59, train loss = 0.372, valid loss = 0.487, time 0m 12s
+Epoch 60, train loss = 0.388, valid loss = 0.479, time 0m 12s
+
+Select best Epoch:
+Epoch 20, train loss = 0.432, valid loss = 0.470, Spearmanr = -0.59
+Epoch 40, train loss = 0.393, valid loss = 0.462, Spearmanr = -0.22
+Epoch 60, train loss = 0.388, valid loss = 0.479, Spearmanr = 0.19
+Final Epoch: 40
+
+valid for train5:
+  tp=93, tn=54, fp=22, fn=28
+  se=0.7686, sp=0.7105, acc=0.7462, mcc=0.473, auc=0.838
+
+
+Validation set:
+  tp=502, tn=263, fp=118, fn=103
+  se=0.8298, sp=0.6903, acc=0.7759, mcc=0.524, auc=0.832
+
+
+Training set:
+  tp=530, tn=291, fp=90, fn=75
+  se=0.8760, sp=0.7638, acc=0.8327, mcc=0.645, auc=0.902
+
+
+Test set:
+  tp=99, tn=46, fp=28, fn=19
+  se=0.8390, sp=0.6216, acc=0.7552, mcc=0.474, auc=0.829
+
+
+Valid	77.59	0.524	0.832
+Train	83.27	0.645	0.902
+Test	99	46	28	19	83.90	62.16	75.52	0.474	0.829

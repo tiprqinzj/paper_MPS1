@@ -1,0 +1,4 @@
+NumRotatableBonds
+NumAromaticRings
+SlogP_VSA7
+fr_HOCCN
