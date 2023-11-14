@@ -336,7 +336,7 @@ python /home/cadd/paper_MPS1/scripts/glide_custom_noligprep.py --cur_folder /hom
    - open *Maestro* software, *Simulation Interaction Diagram* tool, load the **sid_out.eaf** to obtain the trajectory analyses results
 
 ```
-$SCHRODINGER/multismi -JOBNAME desmond -HOST localhost -maxjob 10 -cpu 1 -m run_seed2007.msj -c run_seed2007.cfg desmond_setup_4zeg_CFI-402257-out.cms -mode unbrella --set 'stage[1].set_family.md.jlaunch_opt=["gpu"]' -o desmond_md_out.cms -lic DESMOND_GPGPU:16 -WAIT
+$SCHRODINGER/utilities/multisim -JOBNAME desmond -HOST localhost -maxjob 10 -cpu 1 -m run_seed2007.msj -c run_seed2007.cfg desmond_setup_4zeg_CFI-402257-out.cms -mode unbrella -set 'stage[1].set_family.md.jlaunch_opt=["gpu"]' -o desmond_md_out.cms -lic DESMOND_GPGPU:16 -WAIT
 $SCHRODINGER/run analyze_simulation.py desmond-out.cms desmond_trj sid_out.eaf sid_in.eaf
 ```
 
