@@ -328,8 +328,8 @@ python /home/cadd/paper_MPS1/scripts/glide_custom_noligprep.py --cur_folder /hom
 - create a new sub-folder named **build_system**, prepare three initial structures obtained from the Glide XP docking, that is **4zeg_CFI-402257_initial.pdb**, **4zeg_compd01_initial.pdb**, and **4zeg_compd10_initial.pdb**
 - Build desmond MD solvent systems of the initial structures
   - prepare the input parameter file **desmond_system_build.msj**, containing the parameters of adding counterion ions, adding solvent box, assigning solven model, assigning forcefield, and adding salts
-  - transer the input *.pdb* file to *.mae* file
-  - execute system builder to obtain the result file **desmond_setup_4zeg_CFI-402257-out.cms**
+  - transfer the input *.pdb* file to *.mae* file
+  - execute system builder to obtain the desmond MD input file **desmond_setup_4zeg_CFI-402257-out.cms**
 - the other two system files **desmond_setup_4zeg_compd01-out.cms** and **desmond_setup_4zeg_compd10-out.cms** can be obtained by the similar commands (change the input and output file names, job name)
 
 ```
@@ -338,8 +338,6 @@ cd build_system
 # take 4zeg_CFI-402257_initial.pdb as an example
 $SCHRODINGER/utilities/pdbconvert -ipdb 4zeg_CFI-402257_initial.pdb -omae 4zeg_CFI-402257_initial.mae
 $SCHRODINGER/utilities/multisim -JOBNAME desmond_setup_4zeg_CFI-402257 -m desmond_system_build.msj 4zeg_CFI-402257_initial.mae -o desmond_setup_4zeg_CFI-402257-out.cms -HOST localhost
-
-# the other two systems (4zeg_compd01_initial.pdb and 4zeg_compd10_initial.pdb) were executed same as above to obtain -out.cms files
 ```
 
 - create a new sub-folder named **4zeg_CFI-402257_500_seed2007**
@@ -348,7 +346,6 @@ $SCHRODINGER/utilities/multisim -JOBNAME desmond_setup_4zeg_CFI-402257 -m desmon
   - prepare the parameter files **run_seed2007.cfg** and **run_seed2007.msj**, containing the parameters of minimization, heating, equilbration, production phases and simulation time
   - execute the *multisim* to obtain trajectory files and the output file **desmond-out.cms**
   - prepare the trajectory analysis input file **sid_in.eaf**, execute the script *analyze_simulation.py* to obtain output file **sid_out.eaf**
-  - prepare analysis input file 
   - open *Maestro* software, *Simulation Interaction Diagram* tool, load the **sid_out.eaf** to obtain the trajectory analyses results, saved in **raw-data** and **images** folders
 - the other eight system files (all nine systems, that is, three ligands with three MD seeds) can be obtained by the similar commands
 ```
