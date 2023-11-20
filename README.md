@@ -349,7 +349,7 @@ $SCHRODINGER/utilities/multisim -JOBNAME desmond_setup_4zeg_CFI-402257 -m desmon
   - open *Maestro* software, *Simulation Interaction Diagram* tool, load the **sid_out.eaf** to obtain the trajectory analyses results, saved in **raw-data** and **images** folders
   - prepare the script *plot_rmsd.py* to obtain the plot of RMSD vs Time, input file **raw-data/PL_RMSD.dat**, output image **plot_rmsd.png**
 - the other eight system files (all nine systems, that is, three ligands with three MD seeds) can be obtained by the similar commands
-- *Note*: **plot_rmsd.png** corresponding to **Figure 7** in the manuscript
+- *Note*: three **plot_rmsd.png** figures with seed 2007 corresponding to **Figure 7** in the manuscript
 ```
 # Take the CFI-402257 (replica of seed 2007) as the example, the other eight simulations were same except for the folder and file names
 
@@ -366,5 +366,5 @@ $SCHRODINGER/utilities/multisim -JOBNAME desmond -HOST localhost -maxjob 10 -cpu
 $SCHRODINGER/run analyze_simulation.py desmond-out.cms desmond_trj sid_out.eaf sid_in.eaf
 
 # Plotting of RMSD vs Time
-python ../plot_rmsd.py --dat_file raw-data/PL_RMSD.dat --out_file plot_rmsd.png --dt 0.1 --minY 0 --maxY 5 --sel_prot_ca Y --sel_lig_fitby_prot Y
+python ../plot_rmsd.py --dat_file raw-data/PL_RMSD.dat --out_file protlig_rmsd.png --dt 0.1 --minY 0 --maxY 5 --title_str "CFI-402257 (seed 2007)" --sel_prot_ca Y --sel_lig_fitby_prot Y
 ```
