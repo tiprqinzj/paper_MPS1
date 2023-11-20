@@ -327,7 +327,7 @@ python /home/cadd/paper_MPS1/scripts/glide_custom_noligprep.py --cur_folder /hom
 - create a new folder named **desmond_md** and `cd` to it
 - create a new sub-folder named **build_system**, prepare three initial structures obtained from the Glide XP docking, that is **4zeg_CFI-402257_initial.pdb**, **4zeg_compd01_initial.pdb**, and **4zeg_compd10_initial.pdb**
 - Build desmond MD solvent systems of the initial structures
-  - prepare the input parameter file **desmond_system_build.msj**, containing the parameters of adding counterion ions, adding solvent box, assigning solven model, assigning forcefield, and adding salts
+  - prepare the input parameter file **desmond_system_build.msj**, containing the parameters of adding counterion ions, adding solvent box, assigning solvent model, assigning forcefield, and adding salts
   - transfer the input *.pdb* file to *.mae* file
   - execute system builder to obtain the desmond MD input file **desmond_setup_4zeg_CFI-402257-out.cms**
 - the other two system files **desmond_setup_4zeg_compd01-out.cms** and **desmond_setup_4zeg_compd10-out.cms** can be obtained by the similar commands (change the input and output file names, job name)
@@ -347,14 +347,21 @@ $SCHRODINGER/utilities/multisim -JOBNAME desmond_setup_4zeg_CFI-402257 -m desmon
   - execute the *multisim* to obtain trajectory files and the output file **desmond-out.cms**
   - prepare the trajectory analysis input file **sid_in.eaf**, execute the script *analyze_simulation.py* to obtain output file **sid_out.eaf**
   - open *Maestro* software, *Simulation Interaction Diagram* tool, load the **sid_out.eaf** to obtain the trajectory analyses results, saved in **raw-data** and **images** folders
+  - prepare the script *plot_rmsd.py* to obtain the plot of RMSD vs Time, input file **raw-data/PL_RMSD.dat**, output image **plot_rmsd.png**
 - the other eight system files (all nine systems, that is, three ligands with three MD seeds) can be obtained by the similar commands
+- *Note*: **plot_rmsd.png** correponding to **Figure 7** in the manuscript
 ```
 cd ..
 mkdir 4zeg_CFI-402257_500_seed2007
 cd 4zeg_CFI-402257_500_seed2007
 cp ../build_system/desmond_setup_4zeg_CFI-402257-out.cms ./
+
 # manually prepare two parameter files: run_seed2007.msj and run_seed2007.cfj
 $SCHRODINGER/utilities/multisim -JOBNAME desmond -HOST localhost -maxjob 10 -cpu 1 -m run_seed2007.msj -c run_seed2007.cfg desmond_setup_4zeg_CFI-402257-out.cms -mode unbrella -set 'stage[1].set_family.md.jlaunch_opt=["gpu"]' -o desmond_md_out.cms -lic DESMOND_GPGPU:16 -WAIT
+
 # manually prepare the input analysis file: sid_in.eaf
 $SCHRODINGER/run analyze_simulation.py desmond-out.cms desmond_trj sid_out.eaf sid_in.eaf
+
+# plotting of RMSD vs Time
+python ../plot_rmsd.py --dat_file raw-data/PL_RMSD.dat --out_file plot_rmsd.png --dt 0.1 --minY 0 --maxY 5 --sel_prot_ca Y --sel_lig_fitby_prot Y
 ```
