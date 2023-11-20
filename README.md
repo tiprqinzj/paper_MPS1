@@ -349,19 +349,22 @@ $SCHRODINGER/utilities/multisim -JOBNAME desmond_setup_4zeg_CFI-402257 -m desmon
   - open *Maestro* software, *Simulation Interaction Diagram* tool, load the **sid_out.eaf** to obtain the trajectory analyses results, saved in **raw-data** and **images** folders
   - prepare the script *plot_rmsd.py* to obtain the plot of RMSD vs Time, input file **raw-data/PL_RMSD.dat**, output image **plot_rmsd.png**
 - the other eight system files (all nine systems, that is, three ligands with three MD seeds) can be obtained by the similar commands
-- *Note*: **plot_rmsd.png** correponding to **Figure 7** in the manuscript
+- *Note*: **plot_rmsd.png** corresponding to **Figure 7** in the manuscript
 ```
+# Take the CFI-402257 (replica of seed 2007) as the example, the other eight simulations were same except for the folder and file names
+
+# Make the simulation folder, cd to it, and copy the initial topology file to the folder
 cd ..
 mkdir 4zeg_CFI-402257_500_seed2007
 cd 4zeg_CFI-402257_500_seed2007
 cp ../build_system/desmond_setup_4zeg_CFI-402257-out.cms ./
 
-# manually prepare two parameter files: run_seed2007.msj and run_seed2007.cfj
+# Manually prepare two parameter files (run_seed2007.msj and run_seed2007.cfj) and execute the simulations
 $SCHRODINGER/utilities/multisim -JOBNAME desmond -HOST localhost -maxjob 10 -cpu 1 -m run_seed2007.msj -c run_seed2007.cfg desmond_setup_4zeg_CFI-402257-out.cms -mode unbrella -set 'stage[1].set_family.md.jlaunch_opt=["gpu"]' -o desmond_md_out.cms -lic DESMOND_GPGPU:16 -WAIT
 
-# manually prepare the input analysis file: sid_in.eaf
+# Manually prepare the input analysis file (sid_in.eaf) and execute the trajectory analyses
 $SCHRODINGER/run analyze_simulation.py desmond-out.cms desmond_trj sid_out.eaf sid_in.eaf
 
-# plotting of RMSD vs Time
+# Plotting of RMSD vs Time
 python ../plot_rmsd.py --dat_file raw-data/PL_RMSD.dat --out_file plot_rmsd.png --dt 0.1 --minY 0 --maxY 5 --sel_prot_ca Y --sel_lig_fitby_prot Y
 ```
