@@ -1,6 +1,7 @@
 '''Plotting RMSD for Desmond output file 'PL_RMSD.dat'
 '''
 
+import numpy as np
 import matplotlib.pyplot as plt
 
 def extract_data(dat_file):
@@ -8,9 +9,6 @@ def extract_data(dat_file):
     # load all data to a list
     with open(dat_file) as f:
         lines = f.readlines()
-    
-    # The first title line
-    # title_ls = lines[0].replace('#', '').strip().split()
 
     # extract lists
     frames = []
@@ -53,16 +51,22 @@ def main(dat_file, out_file, dt, minY, maxY, title_str,
     
     if sel_prot_allheavy == 'Y':
         ax.plot(times, prot_allheavy, 'k-', alpha=0.7, label='protein all heavy')
+        print('Protein (All Heavy) RMSD: {} frames, Average {:.2f}, STD {:.2f}'.format(len(prot_allheavy), np.mean(prot_allheavy), np.std(prot_allheavy)))
     if sel_prot_backbone == 'Y':
         ax.plot(times, prot_backbone, 'k--', alpha=0.7, label='protein backbone')
+        print('Protein (Backbone) RMSD: {} frames, Average {:.2f}, STD {:.2f}'.format(len(prot_backbone), np.mean(prot_backbone), np.std(prot_backbone)))
     if sel_prot_sidechain == 'Y':
         ax.plot(times, prot_sidechain, 'k-.', alpha=0.7, label='protein sidechain')
+        print('Protein (Side Chain) RMSD: {} frames, Average {:.2f}, STD {:.2f}'.format(len(prot_sidechain), np.mean(prot_sidechain), np.std(prot_sidechain)))
     if sel_prot_ca == 'Y':
         ax.plot(times, prot_ca, 'b-', alpha=0.7, label='protein alphaC')
+        print('Protein (alphaC) RMSD: {} frames, Average {:.2f}, STD {:.2f}'.format(len(prot_ca), np.mean(prot_ca), np.std(prot_ca)))
     if sel_lig_fitby_prot == 'Y':
         ax.plot(times, lig_fitby_prot, 'r-', alpha=0.7, label='ligand (fit by protein)')
+        print('Ligand (Fit by Protein) RMSD: {} frames, Average {:.2f}, STD {:.2f}'.format(len(lig_fitby_prot), np.mean(lig_fitby_prot), np.std(lig_fitby_prot)))
     if sel_lig_fitby_lig == 'Y':
         ax.plot(times, lig_fitby_lig, 'r-', alpha=0.7, label='ligand (fit by ligand)')
+        print('Ligand (Fit by Ligand) RMSD: {} frames, Average {:.2f}, STD {:.2f}'.format(len(lig_fitby_lig), np.mean(lig_fitby_lig), np.std(lig_fitby_lig)))
     
     if (minY == 'auto') and (maxY == 'auto'):
         pass
