@@ -39,7 +39,7 @@ This repo is the **Data Availability Statement** part of the manuscript entitled
 
 ### Working Folder
 
-Create a user in Linux machine named **cadd**, make a new folder named **paper_MPS1**, that is, the working folder is **/home/cadd/paper_MPS1/**. In this README file, all input, output, code, parameter, ... files are listed in this folder as the example.
+Create a user in Linux machine named **cadd**, make a new folder named **paper_MPS1**, that is, the working folder is **/home/cadd/paper_MPS1/**. In this README file, all input, output, code, parameter, ... files are listed in this folder.
 
 ## Experiment 1: MPS1 inhibitors collection and curation
 
